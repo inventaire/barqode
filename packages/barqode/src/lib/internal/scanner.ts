@@ -1,7 +1,7 @@
 // based on vue-qrcode-reader by Niklas Gruhn
 // see https://github.com/gruhn/vue-qrcode-reader
 
-import { type DetectedBarcode, type BarcodeFormat, BarcodeDetector } from "barcode-detector/pure";
+import { type DetectedBarcode, type BarcodeFormat, BarcodeDetector } from "barcode-detector/ponyfill";
 import { eventOn } from "./callforth.js";
 import { DropImageFetchError } from "./errors.js";
 

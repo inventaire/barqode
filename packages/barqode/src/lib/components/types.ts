@@ -1,4 +1,4 @@
-import type { BarcodeFormat, DetectedBarcode, Point2D } from "barcode-detector/pure";
+import type { BarcodeFormat, DetectedBarcode, Point2D } from "barcode-detector/ponyfill";
 import type { Snippet } from "svelte";
 import type { HTMLInputAttributes } from "svelte/elements";
 
