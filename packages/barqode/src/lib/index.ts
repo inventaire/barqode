@@ -7,3 +7,7 @@ export type {
 	DropzoneProps,
 	StreamProps,
 } from "./components/types.js";
+
+// Re-exporing to allow wasm path customization
+// See https://github.com/Sec-ant/zxing-wasm#configuring-wasm-serving
+export { prepareZXingModule } from "barcode-detector/ponyfill";
