@@ -60,7 +60,7 @@
 		}
 	],
 	"dependencies": {
-		"barcode-detector": "^2.3.1",
+		"barcode-detector": "^3.0.8",
 		"runed": "^0.16.1",
 		"webrtc-adapter": "^9.0.1"
 	}
