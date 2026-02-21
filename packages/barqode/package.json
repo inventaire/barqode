@@ -1,5 +1,5 @@
 {
-	"name": "barqode",
+	"name": "@inventaire/barqode",
 	"version": "0.0.2",
 	"scripts": {
 		"build": "pnpm package",
@@ -13,6 +13,9 @@
 		"!dist/**/*.test.*",
 		"!dist/**/*.spec.*"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
 	"sideEffects": [
 		"**/*.css"
 	],
