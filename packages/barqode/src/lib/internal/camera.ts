@@ -63,7 +63,7 @@ async function runStartTask(
 	// so although `getUserMedia` already should have a built-in mechanism to
 	// detect insecure context (by throwing `NotAllowedError`), we have to do a
 	// manual check before even calling `getUserMedia`.
-	if (window.isSecureContext !== true) {
+	if (typeof navigator?.mediaDevices === 'undefined' && window.isSecureContext !== true) {
 		throw new InsecureContextError();
 	}
 
